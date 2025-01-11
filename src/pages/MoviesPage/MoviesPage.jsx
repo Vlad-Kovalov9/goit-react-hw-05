@@ -54,7 +54,7 @@ export default function MoviesPage() {
           className={s.movies_page_inp}
           type="text"
           name="searchName"
-          id=""
+          id="" 
         />
         <button className={s.movies_page_btn} type="submit">
           Search
