@@ -1,0 +1,19 @@
+.movie_reviews_list {
+    display: flex;
+    flex-direction: column; 
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.movie_reviews_title {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.movie_reviews_content {
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
