@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import MovieList from "../../components/MovieList/MovieList";
-import Navigation from "../../components/Navigation/Navigation";
+// import Navigation from "../../components/Navigation/Navigation";
 import { useSearchParams } from "react-router-dom";
 import { getSearchFilms } from "../../films-api";
 import s from "./MoviesPage.module.css";
@@ -47,7 +47,7 @@ export default function MoviesPage() {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
 
       <form onSubmit={handleSubmit}>
         <input

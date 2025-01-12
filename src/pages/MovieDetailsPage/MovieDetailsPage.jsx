@@ -1,7 +1,7 @@
 import { Suspense, useEffect, useState } from "react";
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
 import { BsBoxArrowLeft } from "react-icons/bs";
-import Navigation from "../../components/Navigation/Navigation";
+// import Navigation from "../../components/Navigation/Navigation";
 import { getFilmById } from "../../films-api";
 import s from "./MovieDetailsPage.module.css";
 
@@ -27,7 +27,7 @@ export default function MovieDetailsPage() {
   if (!filmById) {
     return (
       <>
-        <Navigation />
+        {/* <Navigation /> */}
         <div>Loading...</div>
       </>
     );
@@ -38,7 +38,7 @@ export default function MovieDetailsPage() {
 
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <Link to={backLink} className={s.movie_details_backlink}>
         <BsBoxArrowLeft />
         Go back
